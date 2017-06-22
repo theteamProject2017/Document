@@ -1,0 +1,147 @@
+.headotp {
+  width: 100%;
+  background: #0e2128;
+    background-size: cover;
+  height: 30px;
+  padding: 12px;
+    margin-top: 0 auto;
+    margin-left: 0 ;
+  position:static;
+  text-align: center; 
+    overflow: hidden;
+     margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    border-bottom: 6px solid deepskyblue;
+
+}
+.homecolor{
+    color: white;
+}
+.topmost:hover{
+    color: dodgerblue;
+}
+a {
+    text-decoration: none;
+}
+.topmost {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.topmost .name { 
+  display: none;
+  font: 400 18px/20px "Roboto", Helvetica, Chiller, sans-serif;
+}
+.topmost li {
+  padding:  5px 5px 5px;
+}
+.firsth{
+    font: 400 18px/20px "Roboto", Helvetica, Chiller, sans-serif;
+}
+.inhead{
+    display: flex;
+  font-weight: 700;
+  list-style-type: none;
+  padding:0;
+    justify-content: center;
+}
+
+.topmost a {
+  transition: all .9s;
+}
+.topmost a:hover {
+  color: aquamarine;
+}
+body{
+    font: 400 16px/18px "Roboto", Helvetica, Chiller, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.spa{
+     height: 43px;
+     width: 100px;
+    margin: 0 auto;
+}
+input[type="submit"] {
+    background-color: dodgerblue;
+    border: none;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+     cursor: pointer;
+}
+
+input[type="text"]{
+     border: none;
+    font:  400 14px/16px "Roboto", Helvetica, Chiller, sans-serif;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+  .topmost .name {
+    display: block;
+    margin-right: auto;
+    color: deepskyblue;
+    margin-left:10%; 
+  }
+.topmost .name{
+    transition: all .9s;
+}
+.topmost .name:hover {
+    color: aquamarine;
+}
+a {
+    color:deepskyblue;
+}
+.topmost {
+    width: 90%;
+  }
+.sp{
+    height: 40px;
+    width: 700px;
+    margin: 0 auto;
+    padding-left: 5px;
+}
+header{
+    text-align: center;
+    background: url(images/header-25.jpg) no-repeat top center;
+     margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-size:cover;
+    padding-top: 30px;
+    overflow: hidden;
+    line-height:4.5;
+    width: 100%;
+}
+    footer{
+    text-align: center;
+    background-color: darkslategray top center;
+    background-size:cover;
+    padding-top: 60px;
+    position: fixed;
+        bottom: 0px;
+        left: 0;
+        right:0;
+        width: 100%;
+}
+footer{
+    bottom: 0 ;
+     margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+footer{
+    background-color: darkslategray;
+    background-size: cover;
+    overflow:hidden;
+    bottom: 0;
+}
