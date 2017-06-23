@@ -54,6 +54,16 @@ a {
   padding:0;
     justify-content: center;
 }
+#slider{
+ width: 100%;
+ height: 400px;
+ position: relative;
+ display: block;
+ background-color: cyan;
+ margin-bottom: 100px;
+ /*margin-top: 17px;*/
+}
+
 
 .topmost a {
   transition: all .9s;
@@ -126,7 +136,7 @@ header{
     background-color: darkslategray top center;
     background-size:cover;
     padding-top: 60px;
-    position: fixed;
+     position: static;
         bottom: 0px;
         left: 0;
         right:0;
@@ -140,8 +150,66 @@ footer{
     padding-right: 0px;
 }
 footer{
-    background-color: darkslategray;
+    background-color: #222222;
     background-size: cover;
     overflow:hidden;
     bottom: 0;
+}
+#slider-arr{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; right: 0;  bottom: 0;
+    /* this centers the slide arroes to the middle*/
+
+}
+#arr-left:hover, #arr-right:hover
+{
+    opacity: 0.5;
+    cursor: pointer;
+}
+#arr-left{
+    height: 100%;
+    transform: rotate(0deg);
+    left: 0;
+    position: absolute;
+    margin-left: 10px;
+    opacity: 0.2;
+
+}
+#arr-right{
+    height: 100%;
+    transform: rotate(180deg);
+    right: 0;
+    position: absolute;
+    margin-right: 10px;
+    opacity: 0.2;
+}
+#slider-shows{
+width: 100%;
+height: 50px;
+margin: auto;
+position: absolute;
+bottom: 0;
+}
+#sl-circles{
+    margin: auto;
+    height: 40px;
+    display: table;
+}
+#sl-circles li{
+    float: left;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+#img-show{
+    width: 100%;
+    height: 400px;
 }
